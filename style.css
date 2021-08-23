@@ -100,7 +100,9 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .d-bloc button:hover {
@@ -361,6 +363,14 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+ol, ul {
+    font-size: 16px;
+}
+
+#foot {
+    color: white;
 }
 
 @media (min-width: 768px) {
@@ -652,11 +662,16 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
     max-width: 1000px;
+}
+
+.container-title {
+    display: flex;
+    justify-content: center;
 }
 
 .hero-bloc-text {
@@ -679,6 +694,19 @@ a {
 
 p {
     font-size: 15px;
+}
+
+.quote {
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(27, 27, 27);
+}
+
+.quote-author {
+    font-size: 16px;
+    padding-top: 20px;
+    font-style: normal;
+    color: rgb(27, 27, 27);
 }
 
 .tight-width-whitespace {
@@ -710,11 +738,17 @@ h2 {
     line-height: 1.4em;
 }
 
+.wedo-title {
+    font-size: 20px;
+    max-width: 60%;
+    margin-bottom: 20px;
+}
+
 h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #000000!important;
 }
 
 .med-width-whitespace {
@@ -737,7 +771,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #ffffff!important;
+    font-size: 20px;
 }
 
 .portfolio-thumb {
@@ -764,7 +799,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: #ffffff!important;
 }
 
 .bgc-dark-slate-blue {
@@ -772,7 +807,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f97146;
 }
 
 .tc-white {
@@ -780,7 +815,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #f97146;
     color: #FFFFFF!important;
 }
 
@@ -806,8 +841,8 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #15224e!important;
+    border-color: #15224e!important;
 }
 
 .bg-dots-bg {
