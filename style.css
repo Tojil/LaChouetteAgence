@@ -366,11 +366,7 @@ a:hover {
 }
 
 ol, ul {
-    font-size: 16px;
-}
-
-#foot {
-    color: white;
+    font-size: 18px;
 }
 
 @media (min-width: 768px) {
@@ -662,7 +658,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000000!important;
+    color: #ffffff!important;
 }
 
 .container {
