@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 500;
 }
@@ -370,7 +370,7 @@ ol, ul {
 }
 
 .footer__list li a {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 @media (min-width: 768px) {
@@ -771,7 +771,7 @@ h4 {
 }
 
 .white {
-    color: #000000!important;
+    color: #ffffff!important;
     font-size: 20px;
 }
 
@@ -807,7 +807,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #f97146;
+    background-color: #C2521D;
 }
 
 .tc-white {
@@ -815,7 +815,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #f97146;
+    background: #C2521D;
     color: #000000!important;
 }
 
