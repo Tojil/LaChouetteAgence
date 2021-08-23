@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: 500;
 }
@@ -367,6 +367,10 @@ a:hover {
 
 ol, ul {
     font-size: 18px;
+}
+
+.footer__list li a {
+    color: black;
 }
 
 @media (min-width: 768px) {
@@ -658,7 +662,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000000!important;
+    color: #000000;
 }
 
 .container {
@@ -726,7 +730,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto 20px auto;
 }
 
 h2 {
@@ -767,7 +771,7 @@ h4 {
 }
 
 .white {
-    color: #ffffff!important;
+    color: #000000!important;
     font-size: 20px;
 }
 
