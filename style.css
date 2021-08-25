@@ -367,6 +367,7 @@ a:hover {
 
 ol, ul {
     font-size: 18px;
+    margin-top: 15px;
 }
 
 .footer__list li a {
