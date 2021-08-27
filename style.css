@@ -374,6 +374,11 @@ ol, ul {
     color: rgb(255, 255, 255);
 }
 
+.googleMaps {
+    display: flex;
+    justify-content: center;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -698,6 +703,10 @@ p {
     font-size: 15px;
 }
 
+.col-sm-6 p {
+    padding-left: 10px;
+}
+
 .quote {
     margin: auto;
     max-width: 80%;
@@ -743,7 +752,7 @@ h2 {
 }
 
 .wedo-title {
-    font-size: 30px;
+    font-size: 20px;
     max-width: 80%;
     margin-bottom: 20px;
 }
@@ -942,8 +951,12 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #textCenter .text-center {
+        padding-left: 0px!important;
+        padding-right: 0px!important;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1066,6 +1079,9 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1075,8 +1091,15 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
+@media (max-width: 720px) {
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hero-bloc-text {
+        font-size: 30px;
     }
 }
+    
